@@ -9555,7 +9555,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rocket.chat/tools@workspace:^, @rocket.chat/tools@workspace:packages/tools":
+"@rocket.chat/tools@workspace:^, @rocket.chat/tools@workspace:packages/tools, @rocket.chat/tools@workspace:~":
   version: 0.0.0-use.local
   resolution: "@rocket.chat/tools@workspace:packages/tools"
   dependencies:
@@ -9827,6 +9827,7 @@ __metadata:
     "@rocket.chat/i18n": "workspace:~"
     "@rocket.chat/layout": next
     "@rocket.chat/mock-providers": "workspace:~"
+    "@rocket.chat/tools": "workspace:~"
     "@rocket.chat/ui-client": "workspace:^"
     "@rocket.chat/ui-contexts": "workspace:^"
     "@storybook/addon-actions": ~6.5.16
@@ -9851,6 +9852,7 @@ __metadata:
     typescript: ~5.2.2
   peerDependencies:
     "@rocket.chat/layout": "*"
+    "@rocket.chat/tools": "*"
     "@rocket.chat/ui-contexts": 2.0.0
     "@tanstack/react-query": "*"
     react: "*"

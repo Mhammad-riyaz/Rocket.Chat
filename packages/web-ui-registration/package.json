@@ -24,6 +24,7 @@
 		"@rocket.chat/i18n": "workspace:~",
 		"@rocket.chat/layout": "next",
 		"@rocket.chat/mock-providers": "workspace:~",
+		"@rocket.chat/tools": "workspace:~",
 		"@rocket.chat/ui-client": "workspace:^",
 		"@rocket.chat/ui-contexts": "workspace:^",
 		"@storybook/addon-actions": "~6.5.16",
@@ -49,6 +50,7 @@
 	},
 	"peerDependencies": {
 		"@rocket.chat/layout": "*",
+		"@rocket.chat/tools": "*",
 		"@rocket.chat/ui-contexts": "2.0.0",
 		"@tanstack/react-query": "*",
 		"react": "*",
